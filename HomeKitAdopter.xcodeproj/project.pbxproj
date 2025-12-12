@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10DB6A921C64D389EE587542 /* ARPScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E733324AF7128CF6E66B5EC5 /* ARPScannerView.swift */; };
+		16667E2EADF308F16651D633 /* PortScannerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFADD3CFEC4DE668C91DBA /* PortScannerManager.swift */; };
+		2AC905372423CAA02A3B205A /* ExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDBF5333F1828DC637EC7F0 /* ExportManager.swift */; };
+		2EFEE380961D01FE5AFAE509 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D095383692303387EB2CB9 /* DashboardView.swift */; };
+		38EC86F3D4BB32537972D04F /* PingMonitorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1020C511E459E143F7BEE1 /* PingMonitorManager.swift */; };
+		44E34AD65913372827B65538 /* ScanSchedulerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0180BAF9A039D04CF5A463 /* ScanSchedulerManager.swift */; };
+		464596CC86555DCC5F8ADE69 /* PingMonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE8D08336534EFAE0E8506 /* PingMonitorView.swift */; };
+		4BF5B76250E830321384C200 /* HomeKitBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD26B1F12B8E43F68ADD60A3 /* HomeKitBrowserView.swift */; };
+		4CAE54C773574098A3875ABB /* QRCodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83621DBDDBB0E459F1A63CC3 /* QRCodeManager.swift */; };
+		5B8ADDC9756B41815841BD4E /* PairingInstructionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06659818C338A5E87A6D78FC /* PairingInstructionsManager.swift */; };
+		74A85282F398CA25D60D4E42 /* FirmwareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FFBA89C8BADB814489B3DC /* FirmwareManager.swift */; };
+		75849D15F8C038F66E9BCB0B /* NetworkDiagnosticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E46179929F4D66486C201A /* NetworkDiagnosticsManager.swift */; };
+		92A629B2E56197782F971CDC /* ARPScannerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968CA00D185805EAED770976 /* ARPScannerManager.swift */; };
+		9D4156B9D3AE6988E77184D6 /* SecurityAuditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607D0919D142332EE90F1011 /* SecurityAuditManager.swift */; };
+		AA0001 /* HomeKitAdopterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0001 /* HomeKitAdopterApp.swift */; };
+		AA0002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0002 /* ContentView.swift */; };
+		AA0007 /* LoggingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0007 /* LoggingManager.swift */; };
+		AA0008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0008 /* Assets.xcassets */; };
+		AA0009 /* HomeManagerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0009 /* HomeManagerWrapper.swift */; };
+		AA0010 /* NetworkDiscoveryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0010 /* NetworkDiscoveryManager.swift */; };
+		AA0011 /* DeviceHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0011M /* DeviceHistoryManager.swift */; };
+		AA0012 /* SecureStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0012 /* SecureStorageManager.swift */; };
+		AA0013 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0013 /* StringExtensions.swift */; };
+		AA0014 /* DeviceComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0014 /* DeviceComparisonView.swift */; };
+		AA0015 /* PlatformHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0015 /* PlatformHelpers.swift */; };
+		AA0016 /* InputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0016 /* InputValidator.swift */; };
+		AA0017 /* NetworkSecurityValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0017 /* NetworkSecurityValidator.swift */; };
+		AA0018 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0018 /* ScannerView.swift */; };
+		AA0019 /* DeviceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0019 /* DeviceCardView.swift */; };
+		AA0020 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0020 /* ToolsView.swift */; };
+		AA0021 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0021 /* MoreView.swift */; };
+		AA0022 /* DeviceDetailSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0022 /* DeviceDetailSheetView.swift */; };
+		AA0023 /* FeatureViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0023 /* FeatureViews.swift */; };
+		AA0024 /* NetworkTopologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0024 /* NetworkTopologyView.swift */; };
+		AA973224AFFB6B43A926BF33 /* PortScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4226364E1D056CFC013082 /* PortScannerView.swift */; };
+		D9FAD3520F6293954D61B2FC /* DeviceNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = D361F62E7808887F48B04115 /* DeviceNote.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06659818C338A5E87A6D78FC /* PairingInstructionsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PairingInstructionsManager.swift; path = HomeKitAdopter/Managers/PairingInstructionsManager.swift; sourceTree = "<group>"; };
+		06D095383692303387EB2CB9 /* DashboardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardView.swift; path = HomeKitAdopter/Views/DashboardView.swift; sourceTree = "<group>"; };
+		20FFBA89C8BADB814489B3DC /* FirmwareManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirmwareManager.swift; path = HomeKitAdopter/Managers/FirmwareManager.swift; sourceTree = "<group>"; };
+		607D0919D142332EE90F1011 /* SecurityAuditManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecurityAuditManager.swift; path = HomeKitAdopter/Managers/SecurityAuditManager.swift; sourceTree = "<group>"; };
+		73E46179929F4D66486C201A /* NetworkDiagnosticsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkDiagnosticsManager.swift; path = HomeKitAdopter/Managers/NetworkDiagnosticsManager.swift; sourceTree = "<group>"; };
+		82DFADD3CFEC4DE668C91DBA /* PortScannerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PortScannerManager.swift; sourceTree = "<group>"; };
+		83621DBDDBB0E459F1A63CC3 /* QRCodeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeManager.swift; path = HomeKitAdopter/Managers/QRCodeManager.swift; sourceTree = "<group>"; };
+		8CAE8D08336534EFAE0E8506 /* PingMonitorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PingMonitorView.swift; sourceTree = "<group>"; };
+		968CA00D185805EAED770976 /* ARPScannerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARPScannerManager.swift; sourceTree = "<group>"; };
+		AA4226364E1D056CFC013082 /* PortScannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PortScannerView.swift; sourceTree = "<group>"; };
+		BB0001 /* HomeKitAdopterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeKitAdopterApp.swift; sourceTree = "<group>"; };
+		BB0002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB0007 /* LoggingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingManager.swift; sourceTree = "<group>"; };
+		BB0008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB0009 /* HomeManagerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeManagerWrapper.swift; sourceTree = "<group>"; };
+		BB0010 /* NetworkDiscoveryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDiscoveryManager.swift; sourceTree = "<group>"; };
+		BB0011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0011M /* DeviceHistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHistoryManager.swift; sourceTree = "<group>"; };
+		BB0012 /* SecureStorageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureStorageManager.swift; path = HomeKitAdopter/Security/SecureStorageManager.swift; sourceTree = "<group>"; };
+		BB0013 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = HomeKitAdopter/Utilities/StringExtensions.swift; sourceTree = "<group>"; };
+		BB0014 /* DeviceComparisonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceComparisonView.swift; path = HomeKitAdopter/Views/DeviceComparisonView.swift; sourceTree = "<group>"; };
+		BB0015 /* PlatformHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlatformHelpers.swift; path = HomeKitAdopter/PlatformHelpers.swift; sourceTree = "<group>"; };
+		BB0016 /* InputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputValidator.swift; path = HomeKitAdopter/Security/InputValidator.swift; sourceTree = "<group>"; };
+		BB0017 /* NetworkSecurityValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkSecurityValidator.swift; path = HomeKitAdopter/Security/NetworkSecurityValidator.swift; sourceTree = "<group>"; };
+		BB0018 /* ScannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerView.swift; path = HomeKitAdopter/Views/ScannerView.swift; sourceTree = "<group>"; };
+		BB0019 /* DeviceCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceCardView.swift; path = HomeKitAdopter/Views/DeviceCardView.swift; sourceTree = "<group>"; };
+		BB0020 /* ToolsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolsView.swift; path = HomeKitAdopter/Views/ToolsView.swift; sourceTree = "<group>"; };
+		BB0021 /* MoreView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoreView.swift; path = HomeKitAdopter/Views/MoreView.swift; sourceTree = "<group>"; };
+		BB0022 /* DeviceDetailSheetView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceDetailSheetView.swift; path = HomeKitAdopter/Views/DeviceDetailSheetView.swift; sourceTree = "<group>"; };
+		BB0023 /* FeatureViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeatureViews.swift; path = HomeKitAdopter/Views/FeatureViews.swift; sourceTree = "<group>"; };
+		BB0024 /* NetworkTopologyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkTopologyView.swift; path = HomeKitAdopter/Views/NetworkTopologyView.swift; sourceTree = "<group>"; };
+		CC0001 /* HomeKitAdopter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeKitAdopter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0180BAF9A039D04CF5A463 /* ScanSchedulerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScanSchedulerManager.swift; path = HomeKitAdopter/Managers/ScanSchedulerManager.swift; sourceTree = "<group>"; };
+		CE1020C511E459E143F7BEE1 /* PingMonitorManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PingMonitorManager.swift; sourceTree = "<group>"; };
+		D361F62E7808887F48B04115 /* DeviceNote.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceNote.swift; path = HomeKitAdopter/Models/DeviceNote.swift; sourceTree = "<group>"; };
+		DD26B1F12B8E43F68ADD60A3 /* HomeKitBrowserView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeKitBrowserView.swift; sourceTree = "<group>"; };
+		E733324AF7128CF6E66B5EC5 /* ARPScannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARPScannerView.swift; sourceTree = "<group>"; };
+		FCDBF5333F1828DC637EC7F0 /* ExportManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExportManager.swift; path = HomeKitAdopter/Managers/ExportManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD0001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE0001 = {
+			isa = PBXGroup;
+			children = (
+				EE0002 /* HomeKitAdopter */,
+				EE0003 /* Products */,
+				D361F62E7808887F48B04115 /* DeviceNote.swift */,
+				FCDBF5333F1828DC637EC7F0 /* ExportManager.swift */,
+				73E46179929F4D66486C201A /* NetworkDiagnosticsManager.swift */,
+				83621DBDDBB0E459F1A63CC3 /* QRCodeManager.swift */,
+				CC0180BAF9A039D04CF5A463 /* ScanSchedulerManager.swift */,
+				06659818C338A5E87A6D78FC /* PairingInstructionsManager.swift */,
+				20FFBA89C8BADB814489B3DC /* FirmwareManager.swift */,
+				607D0919D142332EE90F1011 /* SecurityAuditManager.swift */,
+				06D095383692303387EB2CB9 /* DashboardView.swift */,
+				BB0012 /* SecureStorageManager.swift */,
+				BB0013 /* StringExtensions.swift */,
+				BB0014 /* DeviceComparisonView.swift */,
+				BB0015 /* PlatformHelpers.swift */,
+				BB0016 /* InputValidator.swift */,
+				BB0017 /* NetworkSecurityValidator.swift */,
+				BB0018 /* ScannerView.swift */,
+				BB0019 /* DeviceCardView.swift */,
+				BB0020 /* ToolsView.swift */,
+				BB0021 /* MoreView.swift */,
+				BB0022 /* DeviceDetailSheetView.swift */,
+				BB0023 /* FeatureViews.swift */,
+				BB0024 /* NetworkTopologyView.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0002 /* HomeKitAdopter */ = {
+			isa = PBXGroup;
+			children = (
+				BB0011 /* Info.plist */,
+				BB0001 /* HomeKitAdopterApp.swift */,
+				BB0002 /* ContentView.swift */,
+				EE0004 /* Views */,
+				EE0005 /* Managers */,
+				BB0008 /* Assets.xcassets */,
+			);
+			path = HomeKitAdopter;
+			sourceTree = "<group>";
+		};
+		EE0003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0001 /* HomeKitAdopter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE0004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA4226364E1D056CFC013082 /* PortScannerView.swift */,
+				E733324AF7128CF6E66B5EC5 /* ARPScannerView.swift */,
+				8CAE8D08336534EFAE0E8506 /* PingMonitorView.swift */,
+				DD26B1F12B8E43F68ADD60A3 /* HomeKitBrowserView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE0005 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BB0007 /* LoggingManager.swift */,
+				BB0009 /* HomeManagerWrapper.swift */,
+				BB0010 /* NetworkDiscoveryManager.swift */,
+				BB0011M /* DeviceHistoryManager.swift */,
+				82DFADD3CFEC4DE668C91DBA /* PortScannerManager.swift */,
+				968CA00D185805EAED770976 /* ARPScannerManager.swift */,
+				CE1020C511E459E143F7BEE1 /* PingMonitorManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0001 /* HomeKitAdopter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0002 /* Build configuration list for PBXNativeTarget "HomeKitAdopter" */;
+			buildPhases = (
+				DD0002 /* Sources */,
+				DD0001 /* Frameworks */,
+				DD0003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeKitAdopter;
+			productName = HomeKitAdopter;
+			productReference = CC0001 /* HomeKitAdopter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		GG0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FF0001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = GG0002 /* Build configuration list for PBXProject "HomeKitAdopter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE0001;
+			productRefGroup = EE0003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF0001 /* HomeKitAdopter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD0003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0008 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD0002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0001 /* HomeKitAdopterApp.swift in Sources */,
+				AA0002 /* ContentView.swift in Sources */,
+				AA0007 /* LoggingManager.swift in Sources */,
+				AA0009 /* HomeManagerWrapper.swift in Sources */,
+				D9FAD3520F6293954D61B2FC /* DeviceNote.swift in Sources */,
+				2AC905372423CAA02A3B205A /* ExportManager.swift in Sources */,
+				75849D15F8C038F66E9BCB0B /* NetworkDiagnosticsManager.swift in Sources */,
+				4CAE54C773574098A3875ABB /* QRCodeManager.swift in Sources */,
+				44E34AD65913372827B65538 /* ScanSchedulerManager.swift in Sources */,
+				5B8ADDC9756B41815841BD4E /* PairingInstructionsManager.swift in Sources */,
+				74A85282F398CA25D60D4E42 /* FirmwareManager.swift in Sources */,
+				9D4156B9D3AE6988E77184D6 /* SecurityAuditManager.swift in Sources */,
+				2EFEE380961D01FE5AFAE509 /* DashboardView.swift in Sources */,
+				AA0010 /* NetworkDiscoveryManager.swift in Sources */,
+				AA0011 /* DeviceHistoryManager.swift in Sources */,
+				AA0012 /* SecureStorageManager.swift in Sources */,
+				AA0013 /* StringExtensions.swift in Sources */,
+				AA0014 /* DeviceComparisonView.swift in Sources */,
+				AA0015 /* PlatformHelpers.swift in Sources */,
+				AA0016 /* InputValidator.swift in Sources */,
+				AA0017 /* NetworkSecurityValidator.swift in Sources */,
+				AA0018 /* ScannerView.swift in Sources */,
+				AA0019 /* DeviceCardView.swift in Sources */,
+				AA0020 /* ToolsView.swift in Sources */,
+				AA0021 /* MoreView.swift in Sources */,
+				AA0022 /* DeviceDetailSheetView.swift in Sources */,
+				AA0023 /* FeatureViews.swift in Sources */,
+				AA0024 /* NetworkTopologyView.swift in Sources */,
+				16667E2EADF308F16651D633 /* PortScannerManager.swift in Sources */,
+				92A629B2E56197782F971CDC /* ARPScannerManager.swift in Sources */,
+				38EC86F3D4BB32537972D04F /* PingMonitorManager.swift in Sources */,
+				AA973224AFFB6B43A926BF33 /* PortScannerView.swift in Sources */,
+				10DB6A921C64D389EE587542 /* ARPScannerView.swift in Sources */,
+				464596CC86555DCC5F8ADE69 /* PingMonitorView.swift in Sources */,
+				4BF5B76250E830321384C200 /* HomeKitBrowserView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		HH0001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		HH0002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Release;
+		};
+		HH0003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = QRRCB8HB3W;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_CAMERA = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HomeKitAdopter/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to scan HomeKit setup codes from device labels";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalnoise.homekitadopter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		HH0004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = QRRCB8HB3W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HomeKitAdopter/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to scan HomeKit setup codes from device labels";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalnoise.homekitadopter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF0002 /* Build configuration list for PBXNativeTarget "HomeKitAdopter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				HH0003 /* Debug */,
+				HH0004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		GG0002 /* Build configuration list for PBXProject "HomeKitAdopter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				HH0001 /* Debug */,
+				HH0002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = GG0001 /* Project object */;
+}
