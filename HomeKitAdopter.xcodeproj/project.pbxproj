@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA8593583184409292CDCFCD /* ModernDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DA3CBEFB224ED7BFEA3AE8 /* ModernDesign.swift */; };
 		10DB6A921C64D389EE587542 /* ARPScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E733324AF7128CF6E66B5EC5 /* ARPScannerView.swift */; };
 		16667E2EADF308F16651D633 /* PortScannerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFADD3CFEC4DE668C91DBA /* PortScannerManager.swift */; };
 		2AC905372423CAA02A3B205A /* ExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDBF5333F1828DC637EC7F0 /* ExportManager.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94DA3CBEFB224ED7BFEA3AE8 /* ModernDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernDesign.swift; sourceTree = "<group>"; };
 		06659818C338A5E87A6D78FC /* PairingInstructionsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PairingInstructionsManager.swift; path = HomeKitAdopter/Managers/PairingInstructionsManager.swift; sourceTree = "<group>"; };
 		06D095383692303387EB2CB9 /* DashboardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardView.swift; path = HomeKitAdopter/Views/DashboardView.swift; sourceTree = "<group>"; };
 		20FFBA89C8BADB814489B3DC /* FirmwareManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirmwareManager.swift; path = HomeKitAdopter/Managers/FirmwareManager.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				BB0011 /* Info.plist */,
 				BB0001 /* HomeKitAdopterApp.swift */,
 				BB0002 /* ContentView.swift */,
+				94DA3CBEFB224ED7BFEA3AE8 /* ModernDesign.swift */,
 				EE0004 /* Views */,
 				EE0005 /* Managers */,
 				BB0008 /* Assets.xcassets */,
@@ -244,6 +247,7 @@
 			files = (
 				AA0001 /* HomeKitAdopterApp.swift in Sources */,
 				AA0002 /* ContentView.swift in Sources */,
+				BA8593583184409292CDCFCD /* ModernDesign.swift in Sources */,
 				AA0007 /* LoggingManager.swift in Sources */,
 				AA0009 /* HomeManagerWrapper.swift in Sources */,
 				D9FAD3520F6293954D61B2FC /* DeviceNote.swift in Sources */,

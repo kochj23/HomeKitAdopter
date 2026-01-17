@@ -27,6 +27,9 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
+            // Glassmorphic background
+            GlassmorphicBackground()
+
             // Main App Interface
             TabView(selection: $selectedTab) {
                 // Main Scanner Tab
