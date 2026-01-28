@@ -3,7 +3,8 @@
 //  HomeKitAdopter
 //
 //  Created by Jordan Koch on 2025-11-21.
-//  Copyright © 2025 Jordan Koch. All rights reserved.
+//  Updated: 2026-01-28 - Version 4.2
+//  Copyright © 2025-2026 Jordan Koch. All rights reserved.
 //
 
 import SwiftUI
@@ -11,11 +12,14 @@ import SwiftUI
 /// Main application entry point for HomeKit Adopter tvOS Edition
 ///
 /// This tvOS application provides a solution for managing HomeKit accessories
-/// on Apple TV. Due to tvOS limitations, it handles:
-/// - Viewing and managing already-paired HomeKit devices
-/// - Manual setup code entry (limited functionality)
-/// - Home and room management
-/// - Accessory control and status
+/// on Apple TV. Features include:
+/// - Network device discovery via Bonjour/mDNS
+/// - Port scanning and ARP scanning
+/// - Ping monitoring and latency testing
+/// - Security audit and vulnerability detection
+/// - Device history and change tracking
+/// - Export to CSV/JSON formats
+/// - Dashboard with real-time statistics
 ///
 /// # Platform Support:
 /// - tvOS 16.0+ (Apple TV HD and Apple TV 4K)
@@ -41,8 +45,8 @@ import SwiftUI
 struct HomeKitAdopterApp: App {
     /// Initialize logging system on app launch
     init() {
-        LoggingManager.shared.log("HomeKitAdopter app launched on tvOS", level: .info)
-        LoggingManager.shared.log("Apple TV device detected - limited discovery capabilities", level: .info)
+        LoggingManager.shared.log("HomeKitAdopter v4.2 launched on tvOS", level: .info)
+        LoggingManager.shared.log("Apple TV device detected - full network scanning capabilities", level: .info)
     }
 
     var body: some Scene {

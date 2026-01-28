@@ -4,7 +4,8 @@
 //
 //  Platform-specific helpers for tvOS
 //  Created by Jordan Koch on 2025-11-21.
-//  Copyright © 2025 Jordan Koch. All rights reserved.
+//  Updated: 2026-01-28 - Version 4.2
+//  Copyright © 2025-2026 Jordan Koch. All rights reserved.
 //
 
 import SwiftUI
